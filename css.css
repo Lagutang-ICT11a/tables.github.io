@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: century;
+}
+body{
+  background-color: black;
+}
+.text-wrapper{
+    text-align: center;
+    color: white;
+}
+table {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 29px;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    font-family: cursive;
+  }
+td:hover{
+  box-shadow: 10px 10px 8px 10px rgb(29, 29, 29);
+  height: 50px;
+  background-color: rgb(77, 30, 30);
+  color: rgb(216, 57, 57);
+  font-size: 25px;
+  border-radius: 25px;
+}
